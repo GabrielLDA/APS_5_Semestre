@@ -37,8 +37,9 @@ public class Login extends JFrame {
         this.getContentPane().setBackground(Color.WHITE);
         
         jl_title.setBounds(10, 10, 375, 100);
-        ImageIcon icon = new ImageIcon("D:\\APS5Semestre\\APS5Semestre\\src\\Logo.png");
-        jl_title.setIcon(new ImageIcon(icon.getImage().getScaledInstance(375, 100, Image.SCALE_SMOOTH)));
+        ImageIcon icon = new ImageIcon("C:\\Users\\Administrador\\Desktop\\APS5Semestre\\APS5Semestre\\src\\Logo.png");
+        jl_title.setIcon(new ImageIcon(icon.getImage().getScaledInstance(150, 100, Image.SCALE_SMOOTH)));
+        jl_title.setHorizontalAlignment(SwingConstants.CENTER);
         
         jb_login.setBounds(10, 220, 375, 40);
         
